@@ -2,8 +2,8 @@
 # Openhab 1.6.1
 # * configuration is injected
 #
-FROM ubuntu:14.04
-MAINTAINER Tom Deckers <tom@ducbase.com>
+FROM phusion/baseimage:0.9.11
+MAINTAINER Marc <marcsmobile.brown@googlemail.com>
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
